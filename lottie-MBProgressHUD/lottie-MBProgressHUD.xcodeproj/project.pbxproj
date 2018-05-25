@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA37D0920B7B2FB0093A882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D0820B7B2FB0093A882 /* AppDelegate.m */; };
+		AAA37D0C20B7B2FB0093A882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D0B20B7B2FB0093A882 /* ViewController.m */; };
+		AAA37D0F20B7B2FB0093A882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA37D0D20B7B2FB0093A882 /* Main.storyboard */; };
+		AAA37D1120B7B2FC0093A882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA37D1020B7B2FC0093A882 /* Assets.xcassets */; };
+		AAA37D1420B7B2FC0093A882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA37D1220B7B2FC0093A882 /* LaunchScreen.storyboard */; };
+		AAA37D1720B7B2FC0093A882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D1620B7B2FC0093A882 /* main.m */; };
+		AAA37D1E20B7B7F40093A882 /* jiazai.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA37D1D20B7B7F40093A882 /* jiazai.json */; };
+		AAA37D2420B7B92F0093A882 /* MBProgressHUD+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D2320B7B92F0093A882 /* MBProgressHUD+Extend.m */; };
+		AAA37D2720B7C1FA0093A882 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D2520B7C1FA0093A882 /* UIViewExt.m */; };
+		AAA37D2D20B7C2F00093A882 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA37D2B20B7C2F00093A882 /* UIColor+Extend.m */; };
+		D72BD33E0B8552B82F064613 /* libPods-lottie-MBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EBCB38CFFD6C19C4163C91 /* libPods-lottie-MBProgressHUD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75EBCB38CFFD6C19C4163C91 /* libPods-lottie-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lottie-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EE9935C1BF617133ABC604 /* Pods-lottie-MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottie-MBProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-lottie-MBProgressHUD/Pods-lottie-MBProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		AAA37D0420B7B2FB0093A882 /* lottie-MBProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lottie-MBProgressHUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA37D0720B7B2FB0093A882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAA37D0820B7B2FB0093A882 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAA37D0A20B7B2FB0093A882 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAA37D0B20B7B2FB0093A882 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAA37D0E20B7B2FB0093A882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA37D1020B7B2FC0093A882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA37D1320B7B2FC0093A882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA37D1520B7B2FC0093A882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA37D1620B7B2FC0093A882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAA37D1D20B7B7F40093A882 /* jiazai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jiazai.json; sourceTree = "<group>"; };
+		AAA37D2220B7B92F0093A882 /* MBProgressHUD+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extend.h"; sourceTree = "<group>"; };
+		AAA37D2320B7B92F0093A882 /* MBProgressHUD+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extend.m"; sourceTree = "<group>"; };
+		AAA37D2520B7C1FA0093A882 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		AAA37D2620B7C1FA0093A882 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		AAA37D2B20B7C2F00093A882 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		AAA37D2C20B7C2F00093A882 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		F84F456D9B9F0C1853908194 /* Pods-lottie-MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottie-MBProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lottie-MBProgressHUD/Pods-lottie-MBProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA37D0120B7B2FB0093A882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72BD33E0B8552B82F064613 /* libPods-lottie-MBProgressHUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573A2C6F5720FB5BA8A0F4EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F84F456D9B9F0C1853908194 /* Pods-lottie-MBProgressHUD.debug.xcconfig */,
+				90EE9935C1BF617133ABC604 /* Pods-lottie-MBProgressHUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAA37CFB20B7B2FB0093A882 = {
+			isa = PBXGroup;
+			children = (
+				AAA37D0620B7B2FB0093A882 /* lottie-MBProgressHUD */,
+				AAA37D0520B7B2FB0093A882 /* Products */,
+				573A2C6F5720FB5BA8A0F4EF /* Pods */,
+				C76903C33C640D68B6470BA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA37D0520B7B2FB0093A882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA37D0420B7B2FB0093A882 /* lottie-MBProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA37D0620B7B2FB0093A882 /* lottie-MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AAA37D2C20B7C2F00093A882 /* UIColor+Extend.h */,
+				AAA37D2B20B7C2F00093A882 /* UIColor+Extend.m */,
+				AAA37D2620B7C1FA0093A882 /* UIViewExt.h */,
+				AAA37D2520B7C1FA0093A882 /* UIViewExt.m */,
+				AAA37D1D20B7B7F40093A882 /* jiazai.json */,
+				AAA37D0720B7B2FB0093A882 /* AppDelegate.h */,
+				AAA37D0820B7B2FB0093A882 /* AppDelegate.m */,
+				AAA37D0A20B7B2FB0093A882 /* ViewController.h */,
+				AAA37D0B20B7B2FB0093A882 /* ViewController.m */,
+				AAA37D2220B7B92F0093A882 /* MBProgressHUD+Extend.h */,
+				AAA37D2320B7B92F0093A882 /* MBProgressHUD+Extend.m */,
+				AAA37D0D20B7B2FB0093A882 /* Main.storyboard */,
+				AAA37D1020B7B2FC0093A882 /* Assets.xcassets */,
+				AAA37D1220B7B2FC0093A882 /* LaunchScreen.storyboard */,
+				AAA37D1520B7B2FC0093A882 /* Info.plist */,
+				AAA37D1620B7B2FC0093A882 /* main.m */,
+			);
+			path = "lottie-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		C76903C33C640D68B6470BA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EBCB38CFFD6C19C4163C91 /* libPods-lottie-MBProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA37D0320B7B2FB0093A882 /* lottie-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA37D1A20B7B2FC0093A882 /* Build configuration list for PBXNativeTarget "lottie-MBProgressHUD" */;
+			buildPhases = (
+				A80E6167F38B2B0EC45604DA /* [CP] Check Pods Manifest.lock */,
+				AAA37D0020B7B2FB0093A882 /* Sources */,
+				AAA37D0120B7B2FB0093A882 /* Frameworks */,
+				AAA37D0220B7B2FB0093A882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lottie-MBProgressHUD";
+			productName = "lottie-MBProgressHUD";
+			productReference = AAA37D0420B7B2FB0093A882 /* lottie-MBProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA37CFC20B7B2FB0093A882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = hechang;
+				TargetAttributes = {
+					AAA37D0320B7B2FB0093A882 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AAA37CFF20B7B2FB0093A882 /* Build configuration list for PBXProject "lottie-MBProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA37CFB20B7B2FB0093A882;
+			productRefGroup = AAA37D0520B7B2FB0093A882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA37D0320B7B2FB0093A882 /* lottie-MBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA37D0220B7B2FB0093A882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA37D1420B7B2FC0093A882 /* LaunchScreen.storyboard in Resources */,
+				AAA37D1120B7B2FC0093A882 /* Assets.xcassets in Resources */,
+				AAA37D0F20B7B2FB0093A882 /* Main.storyboard in Resources */,
+				AAA37D1E20B7B7F40093A882 /* jiazai.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A80E6167F38B2B0EC45604DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lottie-MBProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA37D0020B7B2FB0093A882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA37D0C20B7B2FB0093A882 /* ViewController.m in Sources */,
+				AAA37D2420B7B92F0093A882 /* MBProgressHUD+Extend.m in Sources */,
+				AAA37D2720B7C1FA0093A882 /* UIViewExt.m in Sources */,
+				AAA37D1720B7B2FC0093A882 /* main.m in Sources */,
+				AAA37D2D20B7C2F00093A882 /* UIColor+Extend.m in Sources */,
+				AAA37D0920B7B2FB0093A882 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA37D0D20B7B2FB0093A882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA37D0E20B7B2FB0093A882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA37D1220B7B2FC0093A882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA37D1320B7B2FC0093A882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA37D1820B7B2FC0093A882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAA37D1920B7B2FC0093A882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA37D1B20B7B2FC0093A882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84F456D9B9F0C1853908194 /* Pods-lottie-MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MC29DLSP7;
+				INFOPLIST_FILE = "lottie-MBProgressHUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hechang.lottie-MBProgressHUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA37D1C20B7B2FC0093A882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EE9935C1BF617133ABC604 /* Pods-lottie-MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MC29DLSP7;
+				INFOPLIST_FILE = "lottie-MBProgressHUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hechang.lottie-MBProgressHUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA37CFF20B7B2FB0093A882 /* Build configuration list for PBXProject "lottie-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA37D1820B7B2FC0093A882 /* Debug */,
+				AAA37D1920B7B2FC0093A882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA37D1A20B7B2FC0093A882 /* Build configuration list for PBXNativeTarget "lottie-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA37D1B20B7B2FC0093A882 /* Debug */,
+				AAA37D1C20B7B2FC0093A882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA37CFC20B7B2FB0093A882 /* Project object */;
+}
